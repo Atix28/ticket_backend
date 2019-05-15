@@ -1,0 +1,29 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "ticket-app",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "emailDataSource": {
+    "name": "emailDataSource",
+    "connector": "mail",
+    "transports": [{
+      "type": "smtp",
+      "host": "smtp.ethereal.email",
+      "secure": false,
+      "port": 587,
+      "tls": {
+        "rejectUnauthorized": false
+      },
+      "auth": {
+        "user": "ollie32@ethereal.email",
+        "pass": "a7avMnjcqzRCQs6jzN"
+      }
+    }]
+  }
+}
