@@ -12,18 +12,20 @@
   "emailDataSource": {
     "name": "emailDataSource",
     "connector": "mail",
-    "transports": [{
-      "type": "smtp",
-      "host": "smtp.ethereal.email",
-      "secure": false,
-      "port": 587,
-      "tls": {
-        "rejectUnauthorized": false
-      },
-      "auth": {
-        "user": "ollie32@ethereal.email",
-        "pass": "a7avMnjcqzRCQs6jzN"
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.ethereal.email",
+        "secure": false,
+        "port": 587,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "ollie32@ethereal.email",
+          "pass": "a7avMnjcqzRCQs6jzN"
+        }
       }
-    }]
+    ]
   }
 }
